@@ -1,0 +1,9 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.20)
+
+Project(cpp_example_project)
+
+SET(CMAKE_CXX_STANDARD 17)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+ADD_EXECUTABLE(shared_ptr shared_ptr.cpp)
+ADD_EXECUTABLE(raii raii.cpp)
